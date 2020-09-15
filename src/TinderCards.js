@@ -34,7 +34,9 @@ function TinderCards() {
             preventSwipe={["up", "down"]}
             onSwipe={(dir) => swiped(dir, person.name)}
             onCardLeftScreen={() => outOfFrame(person.name)}
-          />
+          >
+            <div className=""></div>
+          </TinderCard>
         ))}
       </div>
     </div>
