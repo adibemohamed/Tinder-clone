@@ -12,7 +12,7 @@ function TinderCards() {
     {
       name: "Jeff Bezoz",
       url:
-        "https://uploads-ssl.webflow.com/5dd3f4647030aabbc681ce89/5dd805edb66d23eedfa0de75_416x416%20(9).jpg",
+        "https://i.pinimg.com/originals/3f/4d/1a/3f4d1a939c7960104fc3e8f27316c8b0.jpg",
     },
   ]);
 
