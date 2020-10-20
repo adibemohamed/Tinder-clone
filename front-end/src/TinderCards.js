@@ -11,18 +11,17 @@ function TinderCards() {
       const req = await axios.get("/tinder/cards");
 
       setPeople(req.data);
-      console.log(req.data);
     }
 
     fetchData();
   }, []);
 
   const swiped = (direction, nameToDelete) => {
-    console.log("removing: " + nameToDelete);
+    // console.log("removing: " + nameToDelete);
   };
 
   const outOfFrame = (person) => {
-    console.log("left the screen!");
+    // console.log("left the screen!");
   };
 
   return (
